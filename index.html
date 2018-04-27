@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>get time to date</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <main id="main">
+
+    <div class="firstDateBlock">
+      <input id="toDayText" class="input" type="text" placeholder="set your date name" value="today">
+      <div class="dateBlock__dateAndTime">
+        <input id="firstInputDate" class="input dateBlock__input" type="date">
+        <input id="firstInputTime" class="input dateBlock__input" type="time" step="2">
+      </div>
+    </div>
+
+    <div class="secondDateBlock">
+      <input id="userDateName" class="input" type="text" placeholder="set your date name">
+      <div class="dateBlock__dateAndTime">
+        <input id="secondInputDate" class="input dateBlock__input" type="date">
+        <input id="secondInputTime" class="input dateBlock__input" type="time" step="2">
+      </div>
+    </div>
+
+    <div class="resultDateBlock">
+      <div id="result" class="resultDateBlock__info">00:00:00:00</div>
+    </div>
+
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
